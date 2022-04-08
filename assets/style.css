@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;600;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --light-Cyan: hsl(193, 38%, 86%);
+    --neon-green: hsl(150, 100%, 66%);
+    --grayish-blue: hsl(217, 19%, 38%);
+    --dark-grayish-blue: hsl(217, 19%, 24%);
+    --dark-blue: hsl(218, 23%, 16%);
+}
+
+body{
+    font-family: 'Manrope', sans-serif;
+    font-size: 28px;
+    font-weight: 800;
+
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--dark-blue);
+}
+
+.advice-container{
+    background-color: var(--dark-grayish-blue);
+    max-width: 400px;
+    padding: 1em;
+    text-align: center;
+    border-radius: .8rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 1em;
+
+}
+
+.advice-container h2{
+    font-size: 14px;
+    color: var(--neon-green);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    
+
+}
+
+.advice-container q{
+    color: var(--light-Cyan);
+    font-size: 22px;
+}
+
+.advice-container img{
+    width: 100%;
+    margin-bottom: .6em;
+    
+}
+
+.advice-container button{
+    border: none;
+    outline: none;
+    background-color: var(--neon-green);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    align-self: center;
+    cursor: pointer;
+    position: absolute;
+    bottom: -26px;
+    
+}
+
+.advice-container button img{
+    width: 40%;
+    margin: auto;
+}
