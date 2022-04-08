@@ -75,7 +75,12 @@ main{
     cursor: pointer;
     position: absolute;
     bottom: -26px;
+    transition: .3s all;
     
+}
+
+.advice-container button:hover{
+    box-shadow: 0 0 18px 2px var(--neon-green);
 }
 
 .advice-container button img{
